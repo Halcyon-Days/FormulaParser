@@ -1,6 +1,6 @@
 # FormulaParser
 
-This implements a Formula Parser in C++ that when passed a mathematical formula in the format similar to "2.1 * x - 0.1 * y" are variables, returns a Formula Object that has a calculate() method that when given a map which defines those variables, ie. {x->1, y->2}, returns the result.
+This implements a Formula Parser in C++ that when passed a mathematical formula in the format similar to "2.1 * x - 0.1 * y" are variables and any tokens are delimited by a space, returns a Formula Object that has a calculate() method that when given a map which defines those variables, ie. {x->1, y->2}, returns the result.
 
 
 # Definitions
