@@ -1,0 +1,53 @@
+﻿  FormulaParserTest.cpp
+e:\users\chris\workspace\formulaparser\testsrc\formulaparsertest.cpp(13): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(173): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  e:\users\chris\workspace\formulaparser\testsrc\formulaparsertest.cpp(19): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<const char(&)[5],double,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Other1=const char (&)[5],
+              _Other2=double
+          ]
+  e:\users\chris\workspace\formulaparser\testsrc\formulaparsertest.cpp(17): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<const char(&)[5],double,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Other1=const char (&)[5],
+              _Other2=double
+          ]
+e:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(173): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  e:\users\chris\workspace\formulaparser\testsrc\formulaparsertest.cpp(63): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<const char(&)[5],int,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Other1=const char (&)[5],
+              _Other2=int
+          ]
+  e:\users\chris\workspace\formulaparser\testsrc\formulaparsertest.cpp(61): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<const char(&)[5],int,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Other1=const char (&)[5],
+              _Other2=int
+          ]
+  testsrc.vcxproj -> E:\Users\Chris\Workspace\FormulaParser\Debug\testsrc.dll
