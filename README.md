@@ -1,9 +1,9 @@
 # FormulaParser
 
-This implements a Formula Parser in C++ that when passed a mathematical formula in the format similar to "2.1 * x - 0.1 * y" are variables, returns a Formula Object that has a calculate() method that when given a map which defines those variables, ie. {x->1, y->2}, returns the result
+This implements a Formula Parser in C++ that when passed a mathematical formula in the format similar to "2.1 * x - 0.1 * y" are variables, returns a Formula Object that has a calculate() method that when given a map which defines those variables, ie. {x->1, y->2}, returns the resul.
 
 
-Definitions:
+# Definitions
 
 A term represents any variable that can be used in a equation. A term can be: An expression, which combines 2 Terms and links them by an operator, A Tag, which is a variable which can be subsituted by a value, or A number which is a constant.
 
@@ -30,5 +30,7 @@ order of creation: 1 = 0.1^Moka,  2 = 2.1* Cuka,
 Third Iteration
 TermList = [2.1* Cuka - 0.1^Moka], we return this
 order of creation = 1 = 0.1^Moka , 2 = 2.1* Cuka, 3 = result of 1 - result of 2
+
+
 
 This way of creating the system makes it extremely open to expansion, as you can add new operations that define a behavior between 2 numbers, like %, and then define its order over others, such as the order of operations in BEDMAS
